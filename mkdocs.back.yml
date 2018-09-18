@@ -1,0 +1,32 @@
+dev_addr: 127.0.0.1:8007
+site_name: 'Bitlle Network Wiki'
+site_description: 'Wiki for the Bitlle Network'
+site_dir: 'www'
+site_url: https://bitlle.network/wiki
+
+repo_name: 'Bitlle/bitlle-network-wiki.git'
+repo_url: 'https://github.com/Bitlle/bitlle-network-wiki.git'
+
+extra_css:
+  - https://bitlle.network/wiki/styles/custom.css
+
+theme:
+  name: 'material'
+  language: 'en'
+  logo: 'https://bitlle.network/wiki/images/logo_transparent.png'
+  favicon: 'https://bitlle.network/wiki/images/icons/favicon.ico'
+
+extra:
+  social:
+    - type: 'facebook'
+      link: 'https://www.facebook.com/bitllenetwork'
+    - type: 'telegram'
+      link: 'https://t.me/bitlle_eng'
+    - type: 'github'
+      link: 'https://github.com/Bitlle'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/company/bitlle/'
+
+
+google_analytics: ['UA-122985574-4', 'bitlle.network.wiki']
+copyright: '2018, Bitle Network'

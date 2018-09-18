@@ -1,0 +1,171 @@
+a:hover,
+a:active,
+a:focus,
+label:hover,
+label:focus {
+	color: #567cc3 !important;
+}
+
+.md-typeset {
+	font-size: 1.5rem !important;
+}
+
+.md-typeset h1 {
+	font-weight: 500;
+	color: #000;
+}
+
+.md-typeset h2 {
+	font-weight: 500;
+}
+
+.md-header,
+.md-footer-nav,
+.md-footer-meta {
+	background-color: #213859 !important;
+}
+
+.md-sidebar {
+	overflow: initial;
+
+	&--primary {
+		background-color: #fcfcfc;
+
+		&:before {
+			content: '';
+			position: absolute;
+			top: -50px;
+			display: block;
+			background-color: #fcfcfc;
+			width: 24.2rem;
+			height: 50px;
+		}
+	}
+
+	&--secondary {
+		background-color: transparent;
+	}
+
+	&__scrollwrap {
+		margin: 0 !important;
+	}
+
+	@media (max-width: 960px) {
+		.md-header-nav__languages {
+			display: block !important;
+			text-align: left !important;
+		}
+	}
+	@media only screen and (max-width: 59.9375em) {
+		.md-nav__source {
+			background-color: #567cc3;
+		}
+	}
+}
+
+.md-nav__link[data-md-state="blur"] {
+	color: #567cc3;
+}
+
+label.md-nav__link {
+	padding-top: 0.5rem !important;
+	padding-bottom: 0.5rem !important;
+}
+
+a.md-nav__link {
+	padding-top: 1rem !important;
+	padding-bottom: 1rem !important;
+
+	&--active {
+		color: #567cc3 !important;
+	}
+}
+
+.md-nav__item--active:not(.md-nav__item--nested) {
+	border-left: 2px solid #567cc3 !important;
+	background-color: #f4f9fe !important;
+}
+
+.md-nav {
+	font-size: 1.4rem;
+	color: #92979a;
+
+	&__title {
+		text-transform: uppercase !important;
+		font-weight: 600 !important;
+		font-size: 0.9em !important;
+		color: #000;
+
+		&.md-nav__title--site {
+			padding-left: 2.5rem;
+		}
+	}
+}
+
+.md-nav__item--nested > .md-nav__link::after {
+	float: right;
+	padding-right: 2.5rem;
+}
+
+.md-nav.md-nav--secondary {
+	border-left: 1px solid #ececec;
+
+	a.md-nav__link {
+		padding-top: 0.5rem !important;
+		padding-bottom: 0.5rem !important;
+
+	}
+}
+
+.md-nav__list {
+	li {
+		&.md-nav__item {
+			padding: 0;
+		}
+
+		.md-nav__link {
+			padding-left: 2.5rem;
+		}
+
+		ul {
+			li {
+				.md-nav__link {
+					padding-left: 5rem;
+				}
+
+				ul {
+					li {
+						.md-nav__link {
+							padding-left: 7.5rem;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.md-header {
+	&-nav__source {
+		&.md-header-nav__languages {
+			font-size: 1.6rem !important;
+			line-height: 53px;
+			text-align: right;
+
+			a {
+				display: inline-block;
+				padding: 0 10px;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 76.1875em) {
+	html {
+		.md-nav--primary {
+			.md-nav__title--site {
+				background-color: #213859;
+			}
+		}
+	}
+}
