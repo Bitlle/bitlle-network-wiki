@@ -3,7 +3,7 @@
 <https://bitlle.network/wiki>
 
 
-##Using
+## Using
 
 [MkDocs](https://www.mkdocs.org/)
 
@@ -11,16 +11,24 @@
 
 and custom theme elements
 
-##Install
+## Install
 
 ```
 pip install mkdocs
 pip install mkdocs-material
 ```
 
-##Upgrade
+## Upgrade
 
 ```
 pip install -U mkdocs
 pip install -upgrade mkdocs-material
+```
+
+## Additional
+
+```
+mkdocs.yml - settings for EN 
+mkdocs.ru.yml - settings for RU
+
 ```

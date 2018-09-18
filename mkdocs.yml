@@ -7,7 +7,7 @@ site_url: https://bitlle.network/wiki
 
 
 extra_css:
-  - https://bitlle.network/wiki/bitlle_custom_theme/assets/custom.css?74
+  - https://bitlle.network/wiki/bitlle_custom_theme/assets/custom.css
 
 theme:
   name: 'material'
