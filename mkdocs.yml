@@ -5,7 +5,6 @@ docs_dir: 'docs/en'
 site_dir: 'www'
 site_url: https://bitlle.network/wiki
 
-
 extra_css:
   - https://bitlle.network/wiki/bitlle_custom_theme/assets/custom.css
 
@@ -26,7 +25,6 @@ extra:
       link: 'https://github.com/Bitlle'
     - type: 'linkedin'
       link: 'https://www.linkedin.com/company/bitlle/'
-
 
 google_analytics: ['UA-122985574-4', 'bitlle.network.wiki']
 copyright: '2018, Bitle Network'

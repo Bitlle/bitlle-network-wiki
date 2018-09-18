@@ -10,9 +10,10 @@ extra_css:
 
 theme:
   name: 'material'
+  custom_dir: 'bitlle_custom_theme/'
   language: 'ru'
-  logo: '/wiki/ru/images/logo_transparent.png'
-  favicon: '/wiki/ru/images/icons/favicon.ico'
+  logo: '/wiki/images/logo_transparent.png'
+  favicon: '/wiki/images/icons/favicon.ico'
 
 extra:
   social:
@@ -24,7 +25,6 @@ extra:
       link: 'https://github.com/Bitlle'
     - type: 'linkedin'
       link: 'https://www.linkedin.com/company/bitlle/'
-
 
 google_analytics: ['UA-122985574-4', 'bitlle.network.wiki']
 copyright: '2018, Bitle Network'
